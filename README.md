@@ -1,2 +1,4 @@
-# Wrath_WatchFrame_Fixer
-An attempt to work around the bugs crashing the WatchFrame in the Wrath pre-patch.
+[![patreon](https://www.goldpawsstuff.com/shared/img/common/pa-button.png)](https://www.patreon.com/goldpawsstuff)
+[![paypal](https://www.goldpawsstuff.com/shared/img/common/pp-button.png)](https://www.paypal.me/goldpawsstuff)
+[![discord](https://www.goldpawsstuff.com/shared/img/common/dd-button.png)](https://discord.gg/MUSfWXd)
+[![twitter](https://www.goldpawsstuff.com/shared/img/common/tw-button.png)](https://twitter.com/GoldpawsStuff)
