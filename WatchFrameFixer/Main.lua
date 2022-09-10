@@ -24,13 +24,12 @@
 
 --]]
 
--- The WatchFrame keeps getting sent nil values
+-- The WatchFrame keeps getting sent nil values by GetQuestLogLeaderBoard
+-- GetQuestLogLeaderBoard > WatchFrame_ReverseQuestObjective > WatchFrame_SetLine
 local isSecure, taint = issecurevariable(_G,"WatchFrame_ReverseQuestObjective")
 if (isSecure) then
     local WatchFrame_ReverseQuestObjective = _G.WatchFrame_ReverseQuestObjective
     _G.WatchFrame_ReverseQuestObjective = function(text)
-        if (type(text) == "string") then
-            return WatchFrame_ReverseQuestObjective(text)
-        end
+		return (type(text) == "string") and WatchFrame_ReverseQuestObjective(text) or ""
     end
 end
