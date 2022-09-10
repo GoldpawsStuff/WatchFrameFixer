@@ -25,7 +25,7 @@
 --]]
 
 -- The WatchFrame keeps getting sent nil values
-local isSecure, taint = issecurevariable(_G.WatchFrame_ReverseQuestObjective)
+local isSecure, taint = issecurevariable(_G,"WatchFrame_ReverseQuestObjective")
 if (isSecure) then
     local WatchFrame_ReverseQuestObjective = _G.WatchFrame_ReverseQuestObjective
     _G.WatchFrame_ReverseQuestObjective = function(text)
