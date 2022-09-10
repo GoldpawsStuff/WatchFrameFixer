@@ -6,8 +6,8 @@
 ## Author: Lars Norberg
 
 ## X-Category: Interface Enhancements
-## X-Curse-Project-ID:
-## X-Wago-ID:
+## X-Curse-Project-ID: 674358
+## X-Wago-ID: nQN5no6B
 ## X-License: Custom
 
 Main.lua
